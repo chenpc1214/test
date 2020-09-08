@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b3d1d8a9af954ea0876e94d38107f7e0" Name="Diagram1">
+        <EntityTypeShape EntityType="northwndModel.Categories" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.CustomerDemographics" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Customers" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Employees" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Order_Details" Width="1.5" PointX="7.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Orders" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Products" Width="1.5" PointX="5.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Region" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Shippers" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Suppliers" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwndModel.Territories" Width="1.5" PointX="8" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="northwndModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Order_Details_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Order_Details_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Orders_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.FK_Territories_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.CustomerCustomerDemo" ManuallyRouted="false" />
+        <AssociationConnector Association="northwndModel.EmployeeTerritories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

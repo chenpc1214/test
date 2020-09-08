@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\test\bin\Debug\northwnd.mdf
+C:\Users\user\Desktop\test\bin\Debug\northwnd_log.ldf
+C:\Users\user\Desktop\test\bin\Debug\Properties\northwnd.ldf
+C:\Users\user\Desktop\test\bin\Debug\Properties\northwnd.mdf
+C:\Users\user\Desktop\test\bin\Debug\test.exe.config
+C:\Users\user\Desktop\test\bin\Debug\test.exe
+C:\Users\user\Desktop\test\bin\Debug\test.pdb
+C:\Users\user\Desktop\test\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\test\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\test\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\Desktop\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\user\Desktop\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\test\obj\Debug\test.csproj.CopyComplete
+C:\Users\user\Desktop\test\obj\Debug\test.exe
+C:\Users\user\Desktop\test\obj\Debug\test.pdb

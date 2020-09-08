@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b6497b3873e43dd812698852978267e" Name="Diagram1" >
+        <EntityTypeShape EntityType="BigDataModel.User" Width="1.5" PointX="4.625" PointY="0.5" />
+        <EntityTypeShape EntityType="BigDataModel.Blog" Width="1.5" PointX="1.75" PointY="2.375" />
+        <EntityTypeShape EntityType="BigDataModel.Post" Width="1.5" PointX="6.75" PointY="2.875" />
+        <AssociationConnector Association="BigDataModel.UserBlog" />
+        <AssociationConnector Association="BigDataModel.BlogPost" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

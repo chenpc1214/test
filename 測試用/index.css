@@ -1,0 +1,44 @@
+.container{
+    width: 1000px;
+    height: 90px;
+    margin: 10px auto;
+    background: greenyellow;
+
+}
+
+image{
+    float: left;
+    padding: 10px 20px;
+}
+
+nav{
+    float: right;
+    padding: 24px 150px;
+    background:grey
+  }
+
+  ul{
+    margin: 0;
+    list-style-type: none;
+    
+  }
+
+  nav li{
+    padding: 10px 20px;
+    float: left;
+    background:red
+  }
+
+  /* 滑鼠浮動特效 */
+nav li:hover{ 
+    background-color: yellow;
+    opacity: 10; }
+
+nav a{
+    padding: 0 40px;
+    background:brown
+}
+
+.content{
+    clear: both;
+  }
