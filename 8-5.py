@@ -1,0 +1,5 @@
+season = ("Spring","Summer","Fall","Winter")
+chinese = ("春","夏","秋","冬")
+translation = zip(season,chinese)
+finish = list(translation)
+print(finish)
